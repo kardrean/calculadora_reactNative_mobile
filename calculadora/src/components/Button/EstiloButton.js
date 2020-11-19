@@ -7,11 +7,21 @@ const StylesButton = StyleSheet.create({
         height: Dimensions.get('window').width /4,  
         width: Dimensions.get('window').width /4,
         padding: 20,
-        backgroundColor: "#6033CC",
+        backgroundColor: "#92c825",
         textAlign:'center',
         borderWidth: 1,
-        borderColor: '#888',
+        borderColor: '#395008',
         color:"white",
+    },
+    operationButton:{
+        color:'#fff',
+        backgroundColor:'#ff9b72'
+    },
+    butttonDouble: {
+        width:(Dimensions.get('window').width / 4) * 2
+    },
+    buttonTriple:{
+        width:(Dimensions.get('window').width / 4) * 3
     }
 })
 
